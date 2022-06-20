@@ -1,0 +1,8 @@
+{
+  "short_name": "react-github-user-stats",
+  "name": "react-github-user-stats",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
