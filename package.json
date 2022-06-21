@@ -13,6 +13,13 @@
     "node": ">=8",
     "npm": ">=5"
   },
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-hooks",
+    "github-api",
+    "github-stats"
+  ],
   "scripts": {
     "test": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",

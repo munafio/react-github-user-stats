@@ -1,5 +1,101 @@
-/* body {
+body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-} */
+  text-align: center;
+  background: #fafafa;
+}
+:root {
+  --box-shadow: 0 20px 40px #00000020;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 100%;
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: rgb(221, 221, 221);
+  padding: 1rem;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 10rem;
+  padding: 20px;
+}
+
+.info-card {
+  margin-bottom: 4rem;
+}
+
+.name {
+  text-decoration: none;
+  color: #000;
+}
+
+.name:hover,
+.name:focus,
+.name:active {
+  text-decoration: underline;
+}
+
+.username {
+  margin-bottom: 3rem;
+  color: gray;
+}
+
+.stats {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.stats > div {
+  background-color: rgb(243, 243, 243);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+.stats > div > h1,
+.stats > div > h3 {
+  margin: 0px;
+}
+
+.stats > div > h3 {
+  color: rgb(148, 148, 154);
+}
+
+.dataViewer {
+  text-align: left;
+  max-width: 50%;
+  margin: auto;
+  overflow-y: auto;
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.createdAt {
+  max-width: 50%;
+  width: fit-content;
+  margin: auto;
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: rgb(221, 221, 221);
+}
+
+.createdAt span {
+  font-weight: bold;
+}
