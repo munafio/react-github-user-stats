@@ -22,7 +22,7 @@ npm install --save react-github-user-stats
 
 ```tsx
 import * as React from "react";
-import { useGithubStats } from "react-github-user-stats";
+import useGithubStats from "react-github-user-stats";
 
 const Example = () => {
   const { error, loading, userData } = useGithubStats("munafio");
