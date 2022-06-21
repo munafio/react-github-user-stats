@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Avatar({ user }) {
+export default function Avatar({ user }: any) {
   return (
     <div
       className="avatar"

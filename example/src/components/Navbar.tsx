@@ -1,10 +1,10 @@
 import React from "react";
 import { useState } from "react";
 
-export default function Navbar({ onChange = () => false, value }) {
+export default function Navbar({ onChange = () => false, value = "" }: any) {
   const [input, setInput] = useState(value);
 
-  const handleInputChange = (e) => {
+  const handleInputChange = (e: any) => {
     setInput(e.target.value.trim());
   };
 
@@ -17,7 +17,7 @@ export default function Navbar({ onChange = () => false, value }) {
           value={input}
         />
         <button
-          onClick={(e) => {
+          onClick={(e: any) => {
             e.preventDefault();
             onChange(input);
           }}

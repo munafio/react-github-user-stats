@@ -16,11 +16,11 @@ const App = () => {
 
   return (
     <div className="container">
-      <Navbar onChange={(input) => setUsername(input)} value={username} />
+      <Navbar onChange={(input: any) => setUsername(input)} value={username} />
       <div className="info-card">
         <Avatar user={userData} />
         <h1>
-          <a className="name" href={userData.url} target="_blank">
+          <a className="name" href={userData.url || "#"} target="_blank">
             {userData.name}
           </a>
         </h1>

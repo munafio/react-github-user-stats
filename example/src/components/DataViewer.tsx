@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function DataViewer(data) {
+export default function DataViewer(data: any) {
   return (
     <div className="dataViewer">
       <h3 style={{ marginTop: 0 }}>Returned user's data object:</h3>

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Stats({ user }) {
+export default function Stats({ user }: any) {
   return (
     <div className="stats">
       <div>
