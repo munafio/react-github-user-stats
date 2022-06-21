@@ -29,5 +29,5 @@ export type UseGithubStatsObject = {
 
 export type UseGithubStats = (
   username: string,
-  per_page: string | number
+  per_page?: string | number
 ) => UseGithubStatsObject;
