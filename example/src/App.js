@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { useGithubStats } from "react-github-user-stats";
+import useGithubStats from "react-github-user-stats";
 import Stats from "./components/Stats";
 import Avatar from "./components/Avatar";
 import DataViewer from "./components/DataViewer";

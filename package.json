@@ -1,6 +1,6 @@
 {
   "name": "react-github-user-stats",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get Github user's stats using React Hooks.",
   "author": "munafio",
   "license": "MIT",

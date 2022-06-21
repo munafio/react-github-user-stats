@@ -1,4 +1,4 @@
-import useGithubStats from "./Hooks/useGithubStats";
+import useGithubStats from "./index";
 import { renderHook } from "@testing-library/react-hooks";
 
 // mock timer using jest
