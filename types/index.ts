@@ -21,8 +21,13 @@ export type UserData = {
   updated_at: string;
 };
 
-export type UseGithubStats = {
+export type UseGithubStatsObject = {
   error: string | any;
   loading: boolean;
   userData: UserData;
 };
+
+export type UseGithubStats = (
+  username: string,
+  per_page: string | number
+) => UseGithubStatsObject;

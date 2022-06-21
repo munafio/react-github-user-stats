@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { UseGithubStats, UserData } from "../types";
+import { UseGithubStats, UseGithubStatsObject, UserData } from "../types";
 import {
   getUserProfileData,
   getUserTotalForks,
@@ -9,7 +9,7 @@ import {
 function useGithubStats(
   username: string,
   per_page: number | string = 100
-): UseGithubStats {
+): UseGithubStatsObject {
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string>("");
   const [userData, setUserData] = useState<UserData | null>(null);
@@ -59,7 +59,7 @@ function useGithubStats(
     getUserData();
   }, [username, per_page]);
 
-  return { error, loading, userData } as UseGithubStats;
+  return { error, loading, userData } as UseGithubStatsObject;
 }
 
-export default useGithubStats;
+export default useGithubStats as UseGithubStats;
