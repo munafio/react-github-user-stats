@@ -1,13 +1,13 @@
 {
   "name": "react-github-user-stats",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Get Github user's stats using React Hooks.",
   "author": "munafio",
   "license": "MIT",
   "repository": "munafio/react-github-user-stats",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/types/index.d.ts",
   "jsnext:main": "dist/index.es.js",
   "engines": {
     "node": ">=8",
