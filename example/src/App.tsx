@@ -20,7 +20,7 @@ const App = () => {
       <div className="info-card">
         <Avatar user={userData} />
         <h1>
-          <a className="name" href={userData.url || "#"} target="_blank">
+          <a className="name" href={userData.url || "#"}>
             {userData.name}
           </a>
         </h1>
@@ -28,10 +28,18 @@ const App = () => {
         <Stats user={userData} />
 
         <p>Bio: {userData.bio || "--"}</p>
-        <p>🏠 {userData.location || "--"}</p>
-        <p>🚀 {userData.website || "--"}</p>
-        <p>🌍 {userData.company || "--"}</p>
-        <p>🐤 Twitter @{userData.twitter_username || "--"}</p>
+        <p>
+          <span>🏠</span> {userData.location || "--"}
+        </p>
+        <p>
+          <span>🚀</span> {userData.website || "--"}
+        </p>
+        <p>
+          <span>🌍</span> {userData.company || "--"}
+        </p>
+        <p>
+          <span>🐤</span> Twitter @{userData.twitter_username || "--"}
+        </p>
         <p className="createdAt">
           This Github account was created at <span>{userData.created_at}</span>
         </p>
