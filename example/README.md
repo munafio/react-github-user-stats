@@ -1,6 +1,6 @@
 ## Development Example
 
-This example is linked to `react-media-slider` package in the parent directory for development purposes.
+This example is linked to `react-github-user-stats` package in the parent directory for development purposes.
 
 Run `npm install` and then `npm start` to run the example and test the package.
 
