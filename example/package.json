@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "react": "file:../node_modules/react",
+    "react": "^17.0.0",
     "react-dom": "^16.9.0",
     "react-github-user-stats": "file:..",
     "react-scripts": "^3.0.1"
