@@ -4,7 +4,9 @@
 
 [![NPM](https://img.shields.io/npm/v/react-github-user-stats.svg)](https://www.npmjs.com/package/react-github-user-stats) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-<img src="/assets/demo.png">
+<center>
+<img src="/assets/demo-image.png">
+</center>
 
 This simple npm package provides you an easy way to get Github user's stats using React Hooks.
 
